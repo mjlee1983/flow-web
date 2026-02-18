@@ -1,0 +1,178 @@
+html(lang="en")
+  head
+    title Privacy Policy - Flow
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    link(rel="preconnect" href="https://fonts.gstatic.com")
+    link(href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet")
+    link(rel="stylesheet" href="css/tailwind/tailwind.min.css")
+    link(rel="icon" type="image/png" sizes="32x32" href="favicon.png")
+    script(src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer="defer")
+  body(class="antialiased bg-body text-body font-body")
+    div
+      div
+        section(x-data="{ mobileNavOpen: false }" class="relative bg-zinc-900")
+          img(class="absolute top-0 left-0 w-full h-full" src="fauna-assets/headers/bg-waves.png" alt="")
+          nav(class="py-6")
+            div(class="container mx-auto px-4")
+              div(class="relative flex items-center justify-between")
+                a(href="/index.html" class="inline-block")
+                  img(class="h-9" src="images/logo-white2.svg" alt="")
+                ul(class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden md:flex")
+                  li(class="mr-8")
+                    a(class="inline-block text-white hover:text-zinc-400 font-medium" href="/index.html#introducing") Introducing Flow
+                  li(class="mr-8")
+                    a(class="inline-block text-white hover:text-zinc-400 font-medium" href="/about.html") About us
+                  li
+                    a(class="inline-block text-white hover:text-zinc-400 font-medium" href="/index.html#cases") Use Cases
+                div(class="flex items-center justify-end")
+                  div(class="hidden md:block")
+                    a(href="mailto:contact@create-flow.ai" class="inline-flex group py-2.5 px-4 items-center justify-center text-sm font-medium text-white hover:text-teal-900 border border-white hover:bg-white rounded-full transition duration-200")
+                      span(class="mr-2") Get in touch
+                      |
+                      span(class="transform group-hover:translate-x-0.5 transition-transform duration-200")
+                        svg(width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg")
+                          path(d="M4.75 10H15.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")
+                          path(d="M10 4.75L15.25 10L10 15.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")
+                  button(x-on:click="mobileNavOpen = !mobileNavOpen" class="md:hidden text-white hover:text-zinc-400")
+                    svg(width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg")
+                      path(d="M5.19995 23.2H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")
+                      path(d="M5.19995 16H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")
+                      path(d="M5.19995 8.79999H26.7999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")
+          div(class="relative py-12 lg:py-24")
+            div(class="container mx-auto px-4")
+              div(class="max-w-3xl mx-auto")
+                h1(class="font-heading text-4xl sm:text-5xl tracking-tight text-white mb-8") Privacy Policy
+      section(class="py-12 lg:py-24")
+        div(class="container mx-auto px-4")
+          div(class="max-w-3xl mx-auto prose prose-invert")
+            h2(class="font-heading text-2xl font-bold mb-6") Privacy Policy
+            p(class="text-gray-700 mb-4")
+              | Create Flow, Inc.
+              br
+              | Effective Date: November 1, 2025
+
+            p(class="text-gray-700 mb-6") Create Flow, Inc. ("Create Flow," "Company," "we," "us," or "our") provides web-based software services to enterprise customers. This Privacy Policy describes how we collect, use, process, store, and disclose information in connection with our services (the "Services"). If you have questions about this Privacy Policy, please contact us at: contact@create-flow.ai
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 1. Scope
+            p(class="text-gray-700 mb-6") This Privacy Policy applies to:
+            ul(class="list-disc list-inside text-gray-700 mb-6")
+              li Enterprise customers of Create Flow
+              li Authorized users of customer accounts
+              li Visitors to our website
+              li Individuals whose information is processed through our Services
+
+            p(class="text-gray-700 mb-6") This policy does not apply to third-party services that may integrate with or connect to our Services.
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 2. Information We Collect
+            p(class="text-gray-700 mb-4") We may collect and process the following categories of information:
+
+            h4(class="font-semibold mb-2") A. Information Provided Directly
+            ul(class="list-disc list-inside text-gray-700 mb-6")
+              li Account registration details (name, email address, company name)
+              li Billing and payment information
+              li Communications with us
+              li Information uploaded or submitted through the Services
+
+            h4(class="font-semibold mb-2") B. Automatically Collected Information
+            ul(class="list-disc list-inside text-gray-700 mb-6")
+              li Log data (IP address, browser type, device information)
+              li Usage data (features accessed, session duration)
+              li Cookies and similar tracking technologies
+
+            h4(class="font-semibold mb-2") C. Customer Data
+            p(class="text-gray-700 mb-6") Enterprise customers may upload, transmit, or otherwise provide data to be processed by our Services ("Customer Data"). We process Customer Data solely on behalf of the customer and in accordance with applicable agreements.
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 3. How We Use Information
+            p(class="text-gray-700 mb-6") We use information to:
+            ul(class="list-disc list-inside text-gray-700 mb-6")
+              li Provide, operate, and maintain the Services
+              li Authenticate users and manage accounts
+              li Improve functionality and performance
+              li Provide customer support
+              li Comply with legal obligations
+              li Enforce contractual rights
+
+            p(class="text-gray-700 mb-6") We do not sell personal information.
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 4. Data Processing and Third-Party Services
+            p(class="text-gray-700 mb-6") We may use third-party service providers to support our operations, including but not limited to:
+            ul(class="list-disc list-inside text-gray-700 mb-6")
+              li Cloud hosting providers
+              li Infrastructure and data storage providers
+              li Analytics services
+              li Payment processors
+              li Security and monitoring providers
+
+            p(class="text-gray-700 mb-6") These third parties may process information on our behalf. While we select vendors based on reasonable security and reliability standards, third-party providers operate independently and may be subject to their own privacy and security practices. Information processed by third-party providers may be subject to risks inherent in digital transmission, storage, and processing, including unauthorized access, data breaches, or system failures.
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 5. Data Security
+            p(class="text-gray-700 mb-6") Create Flow implements commercially reasonable technical and organizational safeguards designed to protect information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage system is completely secure. While we make best efforts to protect information using reasonable security measures, we cannot guarantee absolute security.
+
+            p(class="text-gray-700 mb-6") To the maximum extent permitted by applicable law:
+            ul(class="list-disc list-inside text-gray-700 mb-6")
+              li Create Flow does not guarantee that data will be free from unauthorized access, loss, or breach.
+              li Create Flow shall not be liable for security breaches, data leaks, or unauthorized access that occur despite reasonable safeguards, including incidents affecting third-party service providers.
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 6. Data Retention
+            p(class="text-gray-700 mb-6") We retain information:
+            ul(class="list-disc list-inside text-gray-700 mb-6")
+              li As long as necessary to provide the Services
+              li As required by contractual obligations
+              li As necessary to comply with legal requirements
+              li As needed to resolve disputes and enforce agreements
+
+            p(class="text-gray-700 mb-6") Customer Data may be deleted upon termination of the applicable agreement, subject to backup retention policies and legal obligations.
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 7. International Data Transfers
+            p(class="text-gray-700 mb-6") Information may be processed and stored in jurisdictions outside of your location. By using our Services, you acknowledge that data may be transferred across borders and processed in countries with different data protection laws.
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 8. Confidentiality (Enterprise Customers)
+            p(class="text-gray-700 mb-6") We treat Customer Data as confidential and process it solely for the purpose of providing the Services, subject to the applicable Master Services Agreement or enterprise contract.
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 9. Your Rights
+            p(class="text-gray-700 mb-6") Depending on applicable law, individuals may have rights to:
+            ul(class="list-disc list-inside text-gray-700 mb-6")
+              li Access their personal information
+              li Request correction or deletion
+              li Restrict or object to processing
+              li Request data portability
+
+            p(class="text-gray-700 mb-6") Requests may be submitted to: contact@create-flow.ai
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 10. Incident Response
+            p(class="text-gray-700 mb-6") In the event of a confirmed security incident affecting Customer Data, we will notify impacted customers in accordance with contractual obligations and applicable law.
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 11. Changes to This Policy
+            p(class="text-gray-700 mb-6") We may update this Privacy Policy from time to time. Material changes will be posted on our website with an updated effective date.
+
+            h3(class="font-heading text-xl font-bold mb-4 mt-8") 12. Contact Information
+            p(class="text-gray-700") Create Flow, Inc. | Email: contact@create-flow.ai
+
+      section(class="relative py-12 lg:py-24 bg-orange-50 overflow-hidden mt-10")
+        img(class="absolute bottom-0 left-0" src="fauna-assets/footer/waves-lines-left-bottom.png" alt="")
+        div(class="container px-4 mx-auto relative")
+          div(class="flex flex-wrap mb-16 -mx-4")
+            div(class="w-full lg:w-2/12 xl:w-2/12 px-4 mb-16 lg:mb-0")
+              a(class="inline-block mb-4" href="/index.html")
+                img(class="h-12" src="images/logo.svg" alt="")
+            div(class="w-full md:w-7/12 lg:w-6/12 px-4 mb-16 lg:mb-0")
+              div(class="flex flex-wrap -mx-4")
+                div(class="w-1/2 xs:w-1/3 px-4 mb-8 xs:mb-0")
+                div(class="w-1/2 xs:w-1/3 px-4 mb-8 xs:mb-0")
+                div(class="w-full xs:w-1/3 px-4")
+            div(class="w-full md:w-5/12 lg:w-4/12 px-4")
+          div(class="flex flex-wrap justify-between items-center border-t border-gray-300 pt-8")
+            div(class="flex items-center mb-3")
+              a(href="https://www.facebook.com/create.flow.official/" class="inline-block mr-4 text-black hover:text-zinc-400")
+                svg(width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg")
+                  g(clip-path="url(#clip0_230_4832)")
+                    path(d="M11.5481 19.9999V10.8776H14.6088L15.068 7.32147H11.5481V5.05138C11.5481 4.02211 11.8327 3.32067 13.3104 3.32067L15.1919 3.3199V0.139138C14.8665 0.0968538 13.7496 -9.15527e-05 12.4496 -9.15527e-05C9.735 -9.15527e-05 7.87654 1.65687 7.87654 4.69918V7.32147H4.80652V10.8776H7.87654V19.9999H11.5481Z" fill="currentColor")
+              |
+              a(href="https://www.linkedin.com/company/create-flow-ai" class="inline-block text-black hover:text-zinc-400")
+                svg(width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg")
+                  path(d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z" fill="currentColor")
+            div(class="flex flex-wrap gap-6 text-sm text-gray-500")
+              a(href="/terms.html" class="hover:text-gray-700") Terms & Conditions
+              a(href="/privacy.html" class="hover:text-gray-700") Privacy Policy
+            p(class="w-full text-sm text-gray-500 text-center") © 2025 Flow. All rights reserved.
